@@ -1,0 +1,9 @@
+__pycache__/
+results/
+preprocessing/*.png
+preprocessing/*.txt
+preprocessing/*.log
+*.png
+*.csv
+*.hdf5
+*.ods
