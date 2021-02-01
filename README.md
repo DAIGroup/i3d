@@ -12,7 +12,7 @@ The way the images for this action volumes is cropped changes what this I3D netw
 of images can be an interesting alternative to improve performance. The original paper uses an SSD network to crop the
 images around the detected individual. However, these crops are not provided with the Toyota SmartHome dataset.
 
-In our Sensors paper (Climent-Pérez et al. 2021, _submitted_), we have tried to alternatives with success:
+In our Sensors paper (Climent-Pérez et al. 2021, _accepted_), we have tried to alternatives with success:
 
 * Using a Mask RCNN instead of an SSD.
 * Using 'full crops', i.e. full activity crops where information from all detections is used to create a crop of the
@@ -59,4 +59,4 @@ As described in our paper, other changes are aimed at learning rate changes requ
 ## References
 
 * **(Das et al. 2019)** Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota smarthome: Real-world activities of daily living. In Proceedings of the IEEE International Conference on Computer Vision (pp. 833-842).
-* **(Climent-Pérez et al. 2021, _submitted_)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, _submitted_.
+* **(Climent-Pérez et al. 2021, _accepted_)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, _accepted_.
